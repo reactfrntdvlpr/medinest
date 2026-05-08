@@ -185,6 +185,50 @@ img {
     color: color-mix(in srgb, #363f40, transparent 20%);
     margin-bottom: 2.5rem;
 }
+.years{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    color: #1f2f31;
+    font-family: Roboto;
+    text-align: left;
+}
+.Experience {
+    font-size: 15px;
+    font-weight: 500;
+    color: #363f40;
+    text-align: left;
+    color: color-mix(in srgb, #363f40, transparent 40%);
+}
+.card_content.award i{
+    font-size: 2.5rem;
+}
+.our-stats{
+    margin-bottom: 30px;
+    float: left;
+}
+.stat-group{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.hero .cta-buttons .buttons .btn.btn-primary {
+    background: linear-gradient(135deg, #099aa7, color-mix(in srgb, #099aa7, black 20%));
+    border: none;
+    color: white;
+}
+.hero .cta-buttons .buttons .btn {
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 /* Banner CSS End */
 
 
