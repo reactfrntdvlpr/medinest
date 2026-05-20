@@ -277,8 +277,17 @@ img {
     color: transparent;
     background: linear-gradient(135deg, #1f2f31, #099aa7);
 }
-
-
-
+.excellence .section-text {
+    font-size: 21px;
+    line-height: 1.6;
+    font-weight: 300;
+    color: color-mix(in srgb, #363f40, transparent 25%);
+    max-width: 600px;
+    margin: 0 auto;
+}
+.excellence .image-grid {
+    display: flex
+    
+}
 
 /* Excellence Section CSS End*/
