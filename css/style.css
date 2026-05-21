@@ -266,6 +266,7 @@ img {
 .excellence {
     padding: 120px 0;
     background: linear-gradient(135deg, #fff 0%, color-mix(in srgb, #fff, #099aa7 3%) 100%);
+    
 }
 .excellence .section-heading {
     font-size: 48px;
@@ -285,9 +286,74 @@ img {
     max-width: 600px;
     margin: 0 auto;
 }
-.excellence .image-grid {
-    display: flex
-    
+
+.excellence .main-image-box {
+    display: flex;
+    gap: 24px;
+    height: 500px;
+}
+.excellence .primary-image-box {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 25px 80px color-mix(in srgb, #363f40, transparent 88%);
+    position: relative;
 }
 
+.excellence .main-image-box .primary-image-box img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.excellence .main-image-box .primary-image-box img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.excellence .main-image-box .primary-image-box .promotion-badge{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    color: #363f40;
+    padding: 10px 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+.excellence .main-image-box .primary-image-box .promotion-badge i{
+    font-size: 1.1rem;
+    color: #099aa7;
+    font-weight: 700;
+}
+.excellence .main-image-box .primary-image-box .promotion-badge span{
+    font-size: 14px;
+    color: #363f40;
+    font-weight: 500;
+}
+
+.excellence .secondary-image-box{
+    display: flex;
+    width: 55%;
+    gap: 24px;
+    flex-direction: column;
+}
+.excellence .secondary-image-box .small-image{
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px color-mix(in srgb, #363f40, transparent 92%);
+    flex: 1;
+}
+.excellence .secondary-image-box .small-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.excellence .secondary-image-box .small-image img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    
+}
 /* Excellence Section CSS End*/
